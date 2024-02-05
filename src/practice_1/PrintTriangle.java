@@ -1,4 +1,4 @@
-package Practice1Solutions;
+package practice_1;
 
 import java.util.Scanner;
 
@@ -7,7 +7,7 @@ public class PrintTriangle {
     Given an integer number n, print a triangle
     with n rows.
 
-    Example 2:
+    Example 1:
     Input: 4
     Output:
             *
@@ -16,10 +16,11 @@ public class PrintTriangle {
             * * * *
      */
     public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
 
-        int row = new Scanner(System.in).nextInt();
+        int n = in.nextInt();
 
-        for (int i = 0; i < row; i++) {
+        for(int i = 0; i < n; i++){
             for (int j = 0; j <= i; j++) {
                 System.out.print("* ");
             }

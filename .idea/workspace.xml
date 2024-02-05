@@ -1,22 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="6d3c92ce-bd76-476e-bde6-5e6e87f4879e" name="Changes" comment="Practice-1 Problems &amp;&amp; Solutions">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problemset-solved.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice1/Factorial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice1/PrintTriangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice1/ReverseTheWord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice1/Smth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice1/TopFrequent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice1Solutions/Factorial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice1Solutions/PrintTriangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice1Solutions/ReverseTheWord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice1Solutions/TopFrequent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework_1/ContainsDuplicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework_1/EquivalentStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework_1/FinalValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework_1/IntersectionArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework_1/KthLargest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework_1/NumOccurrences.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework_1/PermutationArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework_1/ReverseArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework_1/RichestWealth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework_1/TwoSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice1/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice_1/Factorial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice1/PrintTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice_1/PrintTriangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice1/ReverseTheWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice_1/ReverseTheWord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice1/Smth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice_1/Smth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice1/TopFrequent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice_1/TopFrequent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice1Solutions/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice_1solutions/Factorial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice1Solutions/PrintTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice_1solutions/PrintTriangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice1Solutions/ReverseTheWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice_1solutions/ReverseTheWord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice1Solutions/TopFrequent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice_1solutions/TopFrequent.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,12 +57,20 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "/Users/axxermekya.ru/IdeaProjects/javaCore/Course/problemset-solved/src",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="homework_1" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
     </key>
@@ -66,8 +83,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1707141058592</updated>
-      <workItem from="1707141061040" duration="227000" />
+      <workItem from="1707141061040" duration="991000" />
+      <workItem from="1707143602733" duration="1629000" />
     </task>
+    <task id="LOCAL-00001" summary="Practice-1 Problems &amp;&amp; Solutions">
+      <created>1707141363018</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1707141363018</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
