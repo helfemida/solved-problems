@@ -1,4 +1,4 @@
-package homework_1;
+package homework1;
 
 import java.util.Scanner;
 
@@ -27,6 +27,10 @@ public class EquivalentStrings {
     Input: word1  = ["abc", "d", "defg"], word2 = ["abcddefg"]
     Output: true
 
+
+    1. Word1 concat, Word2 concat
+    2. word1 ten ba ten emes pe word2
+
      */
 
     public static void main(String[] args) {
@@ -42,18 +46,43 @@ public class EquivalentStrings {
 
         String[] word2 = new String[m];
 
-        System.out.print("First array words: ");
+        System.out.println("First array words: ");
         for (int i = 0; i < n; i++) {
             word1[i] = in.next();
         }
 
-        System.out.print("Second array words: ");
-        for (int i = 0; i < n; i++) {
+        System.out.println("Second array words: ");
+        for (int i = 0; i < m; i++) {
             word2[i] = in.next();
         }
 
-        //create isEquivalentStrings() and use it for word1 and word2 arrays
+        System.out.println(isEquivalentStrings(word1, word2));
     }
 
     //implement your isEquivalentStrings() method here
+
+    public static boolean isEquivalentStrings(String[] word1, String[] word2){
+        String qosylgan1 = "";
+
+        for (int i = 0; i < word1.length; i++) {
+            qosylgan1 += word1[i];
+        }
+
+        String qosylgan2 = "";
+
+        for (int i = 0; i < word2.length; i++) {
+            qosylgan2 += word2[i];
+        }
+
+//        if (qosylgan1.equals(qosylgan2)){
+//            return true;
+//        }
+//        else{
+//            return false;
+//        }
+
+        return qosylgan1.equals(qosylgan2);
+    }
+
+    // nums[i] == nums[j], .equals()
 }

@@ -1,4 +1,4 @@
-package homework_1;
+package homework1;
 
 import java.util.Scanner;
 
@@ -21,6 +21,14 @@ public class ContainsDuplicate {
     Input: nums = [1,1,1,3,3,4,3,2,4,2]
     Output: true
 
+    i = 0, j = 0
+    nums[0] = 1; nums[0] = 1
+     count = 1;
+     i = 0, j = 1;
+     nums[0] = 1, nums[1] = 1
+     count = 2;
+
+
      */
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
@@ -36,9 +44,23 @@ public class ContainsDuplicate {
             nums[i] = in.nextInt();
         }
 
+        System.out.println(containsDuplicate(nums));
         //create containsDuplicate() method and use it for the array nums
     }
-
     //method containsDuplicate()
-
+    public static boolean containsDuplicate(int[] nums){
+        for (int i = 0; i < nums.length; i++) {
+            int count = 0; //счет
+            for (int j = 0; j < nums.length; j++) {
+                if(nums[i] == nums[j]){
+                    count++;
+                }
+            }
+            if(count >= 2){
+                return true;
+            }
+            count = 0;
+        }
+        return false;
+    }
 }

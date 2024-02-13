@@ -1,5 +1,6 @@
-package homework_1;
+package homework1_solutions;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class TwoSum {
@@ -45,7 +46,21 @@ public class TwoSum {
         System.out.print("Target sum: ");
         int target = in.nextInt();
 
+        System.out.println(Arrays.toString(twoSum(nums, target)));
         //create twoSum() method and use it for the array nums and target
     }
     //method twoSum()
+    public static int[] twoSum(int[] nums, int target){
+        int[] indices = new int[2];
+        for(int i = 0; i < nums.length; i++){
+            for(int j = 0; j < nums.length; j++){
+                if(nums[i] + nums[j] == target){
+                    indices[0] = i;
+                    indices[1] = j;
+                    return indices;
+                }
+            }
+        }
+        return indices;
+    }
 }

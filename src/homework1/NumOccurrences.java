@@ -1,4 +1,4 @@
-package homework_1;
+package homework1;
 
 import java.util.Scanner;
 
@@ -40,4 +40,3 @@ public class NumOccurrences {
     }
     //method numberOccurrences()
 }
-

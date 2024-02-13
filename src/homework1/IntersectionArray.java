@@ -1,4 +1,4 @@
-package homework_1;
+package homework1;
 
 import java.util.Scanner;
 
@@ -46,4 +46,5 @@ public class IntersectionArray {
     }
 
     //implement your getIntersection() method here
+
 }

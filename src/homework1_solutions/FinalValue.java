@@ -1,4 +1,4 @@
-package homework_1;
+package homework1_solutions;
 
 import java.util.Scanner;
 
@@ -59,8 +59,21 @@ public class FinalValue {
             operations[i] = in.next();
         }
 
+        System.out.println(performOperation(operations));
         //create performOperation() method and use operations array
     }
 
     //implement your performOperation() method here
+    public static int performOperation(String[] operations){
+        int finalValue = 0;
+        for (int i = 0; i < operations.length; i++) {
+            if(operations[i].contains("+")){
+                finalValue++;
+            }
+            if(operations[i].contains("-")){
+                finalValue--;
+            }
+        }
+        return finalValue;
+    }
 }

@@ -1,5 +1,6 @@
-package homework_1;
+package homework1_solutions;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class PermutationArray {
@@ -30,7 +31,7 @@ public class PermutationArray {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
-        System.out.print("Size of the array:");
+        System.out.print("Size of the array: ");
         int n = in.nextInt();
 
         int[] nums = new int[n];
@@ -40,9 +41,15 @@ public class PermutationArray {
         for (int i = 0; i < n; i++) {
             nums[i] = in.nextInt();
         }
-
+        System.out.println(Arrays.toString(buildArray(nums)));
         //create buildArray() method and use it for the array nums
     }
 
-    //method buildArray()
+    public static int[] buildArray(int[] nums){
+        int[] res = new int[nums.length];
+        for(int i = 0; i < nums.length; i++){
+            res[i] = nums[nums[i]];
+        }
+        return res;
+    }
 }
