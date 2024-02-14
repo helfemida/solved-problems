@@ -4,36 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d3c92ce-bd76-476e-bde6-5e6e87f4879e" name="Changes" comment="HW-1 added">
-      <change afterPath="$PROJECT_DIR$/src/homework1/RichestCustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework1_solutions/ContainsDuplicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework1_solutions/EquivalentStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework1_solutions/FinalValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework1_solutions/KthLargest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework1_solutions/PermutationArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework1_solutions/RichestCustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework1_solutions/TwoSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework2/Onay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework2/TestOnay.java" afterDir="false" />
+    <list default="true" id="6d3c92ce-bd76-476e-bde6-5e6e87f4879e" name="Changes" comment="HW-2 tasks, HW-1 solutions added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework_1/ContainsDuplicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework1/ContainsDuplicate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework_1/EquivalentStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework1/EquivalentStrings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework_1/FinalValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework1/FinalValue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework_1/IntersectionArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework1/IntersectionArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework_1/KthLargest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework1/KthLargest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework_1/NumOccurrences.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework1/NumOccurrences.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework_1/PermutationArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework1/PermutationArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework_1/RichestWealth.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework_1/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework1/TwoSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice_1/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice1/Factorial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice_1/PrintTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice1/PrintTriangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice_1/ReverseTheWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice1/ReverseTheWord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice_1/Smth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice1/Smth.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice_1/TopFrequent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice1/TopFrequent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice_1solutions/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice1_solutions/Factorial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice_1solutions/PrintTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice1_solutions/PrintTriangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice_1solutions/ReverseTheWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice1_solutions/ReverseTheWord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice_1solutions/TopFrequent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice1_solutions/TopFrequent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework2/arrayProblems/FibonacciArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework2/arrayProblems/FibonacciArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework2/arrayProblems/MaximumOnesRow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework2/arrayProblems/MaximumOnesRow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework2/arrayProblems/MissingInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework2/arrayProblems/MissingInteger.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +24,19 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="98797fe2-4dd9-49a8-9baa-0ed048cd3159" />
+        <option name="url" value="https://github.com/helfemida/solved-problems" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -99,7 +87,8 @@
       <workItem from="1707354425971" duration="4507000" />
       <workItem from="1707487709054" duration="3718000" />
       <workItem from="1707659063255" duration="7213000" />
-      <workItem from="1707828746369" duration="4481000" />
+      <workItem from="1707828746369" duration="7596000" />
+      <workItem from="1707913957851" duration="307000" />
     </task>
     <task id="LOCAL-00001" summary="Practice-1 Problems &amp;&amp; Solutions">
       <created>1707141363018</created>
@@ -115,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1707145522079</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="HW-2 tasks, HW-1 solutions added">
+      <created>1707842802171</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1707842802171</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +120,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Practice-1 Problems &amp;&amp; Solutions" />
     <MESSAGE value="HW-1 added" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW-1 added" />
+    <MESSAGE value="HW-2 tasks, HW-1 solutions added" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW-2 tasks, HW-1 solutions added" />
   </component>
 </project>
