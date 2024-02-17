@@ -2,6 +2,8 @@ package homework2.encapsulation;
 
 import homework2.encapsulation.Onay;
 
+import java.util.Scanner;
+
 public class TestOnay {
     /*
         В данном задании ваша задача симплементировать Онай карточку.
@@ -9,7 +11,7 @@ public class TestOnay {
         у пожилых "Pensioner" и детей "Children" скидка 70 процентов.
 
         Методы:
-            payForRide() - оплачивает за проезд с учетом скидки.
+            payForRide() - оплачивает за проезд с учетом скидки. -100
             amountOfRides(): int - возвращает оставшееся количество проездов
             chargeBalance(amount: double) - пополняет баланс на сумму amount
             toString() - возвращает описание онайки в формате:
@@ -26,9 +28,9 @@ public class TestOnay {
         |------------------------|
         | + Onay(cardHolder:     |
         |   String, holderType:  |
-        |   String)              |
-        | + payForRide()         |
-        | + amountOfRides(): int |
+        |   String)              | ++++
+        | + payForRide()         | ++++
+        | + amountOfRides(): int | ++++
         | + getOwner(): String   |
         | + getDiscount(): int   |
         | + getBalance(): double |
@@ -39,21 +41,18 @@ public class TestOnay {
 
      */
     public static void main(String[] args) {
-        Onay onay1 = new Onay("Albina", "student");
-        Onay onay2 = new Onay("Apa", "pensioner");
-        Onay onay3 = new Onay("John", "regular");
+       Scanner in = new Scanner(System.in);
 
-        onay1.chargeBalance(999);
-        onay2.chargeBalance(5000);
-        onay3.chargeBalance(3123);
+       String name = in.nextLine();
+       String type = in.next();
+       int balance = in.nextInt();
 
-        testOnay(onay1);
-        testOnay(onay2);
-        testOnay(onay3);
+       Onay onay = new Onay(name, type);
+       onay.chargeBalance(balance);
 
-        System.out.println(onay1);
-        System.out.println(onay2);
-        System.out.println(onay3);
+        testOnay(onay);
+
+        System.out.println(onay);
 
     }
     private static void testOnay(Onay onay){
@@ -61,7 +60,6 @@ public class TestOnay {
         while(onay.amountOfRides() > 0){
             onay.payForRide();
         }
-
         onay.chargeBalance(125);
     }
 }
