@@ -1,5 +1,7 @@
 package homework2.arrayProblems;
 
+import java.util.Arrays;
+
 public class FibonacciArray {
     /*
     [EN]
@@ -11,7 +13,7 @@ public class FibonacciArray {
     Input: N = 4;
     Output: [0, 1, 1, 2]
 
-    Input: N = 15;
+    Input: N = 11;
     Output: [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
 
     [RU]
@@ -26,12 +28,34 @@ public class FibonacciArray {
     Ввод: N = 4;
     Вывод: [0, 1, 1, 2]
 
-    Ввод: N = 15;
+    Ввод: N = 11;
     Вывод: [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
 
      */
 
     public static void main(String[] args) {
-        //write your solution here
+        int n = 11;
+
+        System.out.println(Arrays.toString(fibonacciArray(n)));
+
+    }
+
+    public static int[] fibonacciArray(int n) {
+        // n == 1, n == 2
+        if(n == 1){
+            return new int[]{1};
+        }
+        else if(n == 2){
+            return new int[]{0, 1};
+        }
+        int[] nums = new int[n];
+
+        nums[0] = 0;
+        nums[1] = 1;
+
+        for (int i = 2; i < n; i++) {
+            nums[i] = nums[i-2] + nums[i-1];
+        }
+        return  nums;
     }
 }
