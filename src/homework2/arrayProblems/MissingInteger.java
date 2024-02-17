@@ -1,5 +1,6 @@
 package homework2.arrayProblems;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class MissingInteger {
@@ -17,7 +18,7 @@ public class MissingInteger {
     Output: 5
     Explanation: The 7 size of the array is 7,
     hence the numbers will be in [1, N].
-    The missing number betwen 1 and 8 is 5;
+    The missing number between 1 and 8 is 5;
 
     [RU]
     Дан массив arr[] размером N-1 с целыми числами в диапазоне [1, N].
@@ -33,6 +34,31 @@ public class MissingInteger {
 
      */
     public static void main(String[] args) {
-        //write your solution here
+        int[] nums = {1, 3, 6, 2, 5};
+
+        //was[0] = true; was[nums[0] - 1] = true;
+        // was[3] = true; was[nums[3] - 1] = true;
+        // was[8] = ArrayIndexOutOfBoundsException
+        System.out.println(findMissing(nums));
+        //индекс was[] == элемент nums[]
+    }
+
+    public static int findMissing(int[] nums){
+        boolean[] was = new boolean[nums.length + 2];
+
+        for (int i = 0; i < nums.length; i++) {
+            was[nums[i]] = true;
+        }
+
+        for (int i = 1; i < was.length; i++) {
+            System.out.println(i + ": " + was[i]);
+        }
+
+        for (int i = 1; i < was.length; i++) {
+            if(!was[i]){
+                return i;
+            }
+        }
+        return -1;
     }
 }

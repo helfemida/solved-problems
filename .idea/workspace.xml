@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d3c92ce-bd76-476e-bde6-5e6e87f4879e" name="Changes" comment="HW-2 tasks, HW-1 solutions added">
+    <list default="true" id="6d3c92ce-bd76-476e-bde6-5e6e87f4879e" name="Changes" comment="Solved MissingInteger">
+      <change afterPath="$PROJECT_DIR$/src/homework2_solution/FibonacciArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework2_solution/MaxSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework2_solution/MaximumOnesRow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework2/arrayProblems/FibonacciArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework2/arrayProblems/FibonacciArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework2/arrayProblems/MaximumOnesRow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework2/arrayProblems/MaximumOnesRow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/homework2/arrayProblems/MissingInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework2/arrayProblems/MissingInteger.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,8 +72,85 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="homework2_solution" />
       <recent name="homework1_solutions" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="MaxSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework2_solution.MaxSum" />
+      <module name="problemset-solved" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework2_solution.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaximumOnesRow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework2_solution.MaximumOnesRow" />
+      <module name="problemset-solved" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework2_solution.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MissingInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework2_solution.MissingInteger" />
+      <module name="problemset-solved" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework2_solution.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestOnay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework2.encapsulation.TestOnay" />
+      <module name="problemset-solved" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework2.encapsulation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="homework2.arrayProblems.FibonacciArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework2.arrayProblems.FibonacciArray" />
+      <module name="problemset-solved" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework2.arrayProblems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.homework2.arrayProblems.FibonacciArray" />
+        <item itemvalue="Application.TestOnay" />
+        <item itemvalue="Application.MissingInteger" />
+        <item itemvalue="Application.MaxSum" />
+        <item itemvalue="Application.MaximumOnesRow" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -88,7 +166,9 @@
       <workItem from="1707487709054" duration="3718000" />
       <workItem from="1707659063255" duration="7213000" />
       <workItem from="1707828746369" duration="7596000" />
-      <workItem from="1707913957851" duration="307000" />
+      <workItem from="1707913957851" duration="1326000" />
+      <workItem from="1708171623156" duration="3477000" />
+      <workItem from="1708179060158" duration="6893000" />
     </task>
     <task id="LOCAL-00001" summary="Practice-1 Problems &amp;&amp; Solutions">
       <created>1707141363018</created>
@@ -111,7 +191,35 @@
       <option name="project" value="LOCAL" />
       <updated>1707842802171</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Updated problem statements">
+      <created>1707914682152</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1707914682152</updated>
+    </task>
+    <task id="LOCAL-00005" summary="solvd Onay">
+      <created>1708182675075</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1708182675075</updated>
+    </task>
+    <task id="LOCAL-00006" summary="solved Fib">
+      <created>1708183179584</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1708183179584</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Solved MissingInteger">
+      <created>1708184279351</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1708184279351</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,6 +229,10 @@
     <MESSAGE value="Practice-1 Problems &amp;&amp; Solutions" />
     <MESSAGE value="HW-1 added" />
     <MESSAGE value="HW-2 tasks, HW-1 solutions added" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW-2 tasks, HW-1 solutions added" />
+    <MESSAGE value="Updated problem statements" />
+    <MESSAGE value="solvd Onay" />
+    <MESSAGE value="solved Fib" />
+    <MESSAGE value="Solved MissingInteger" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solved MissingInteger" />
   </component>
 </project>
