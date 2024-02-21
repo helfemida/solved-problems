@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d3c92ce-bd76-476e-bde6-5e6e87f4879e" name="Changes" comment="Solved MissingInteger">
-      <change afterPath="$PROJECT_DIR$/src/homework2_solution/FibonacciArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework2_solution/MaxSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework2_solution/MaximumOnesRow.java" afterDir="false" />
+    <list default="true" id="6d3c92ce-bd76-476e-bde6-5e6e87f4879e" name="Changes" comment="Solutions">
+      <change afterPath="$PROJECT_DIR$/src/homework3/overload/TestCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework3/overload/descriprion.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework3/override/TestVehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework3/override/uml.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework2/arrayProblems/MissingInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework2/arrayProblems/MissingInteger.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +66,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="homework3" />
       <recent name="homework_1" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -168,7 +169,9 @@
       <workItem from="1707828746369" duration="7596000" />
       <workItem from="1707913957851" duration="1326000" />
       <workItem from="1708171623156" duration="3477000" />
-      <workItem from="1708179060158" duration="6893000" />
+      <workItem from="1708179060158" duration="6920000" />
+      <workItem from="1708276388456" duration="609000" />
+      <workItem from="1708429332917" duration="1476000" />
     </task>
     <task id="LOCAL-00001" summary="Practice-1 Problems &amp;&amp; Solutions">
       <created>1707141363018</created>
@@ -219,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708184279351</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Solutions">
+      <created>1708194093522</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1708194093522</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,6 +243,7 @@
     <MESSAGE value="solvd Onay" />
     <MESSAGE value="solved Fib" />
     <MESSAGE value="Solved MissingInteger" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solved MissingInteger" />
+    <MESSAGE value="Solutions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solutions" />
   </component>
 </project>
